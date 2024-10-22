@@ -9,7 +9,7 @@ Welcome to my digital playground! I'm a **DevOps Engineer** with a passion for a
 - 🤔 On a mission to level up my skills in the realms of cloud infrastructure and automation.
 - 💬 Feel free to quiz me about DevOps, cloud tech, or anything tech-related—I'm all ears!
 - 📫 **Reach me**: [vdxp@yahoo.com](mailto:vdxp@yahoo.com)
-- 😄 **Pronouns**: [Your Pronouns]
+- 😄 **Pronouns**: Zo Hair
 - ⚡ **Fun Fact**: I once automated my coffee machine to brew at 7 AM using a Raspberry Pi! ☕️✨
 
 ## 🛠️ Tech Stack & Tools
@@ -17,9 +17,9 @@ Welcome to my digital playground! I'm a **DevOps Engineer** with a passion for a
 ```plaintext
   🐍 Languages:
     - Python
-    - JavaScript
-    - Go
-    - Shell
+    - YAML/JSON
+    - Groovy
+    - Shell Scripting
 
   🚀 DevOps Tools:
     - Docker 🐳
@@ -36,4 +36,4 @@ Welcome to my digital playground! I'm a **DevOps Engineer** with a passion for a
   🗄️ Databases:
     - MySQL 🐬
     - PostgreSQL 🐘
-    - MongoDB 🍃
+    - DynamoDB 🍃
