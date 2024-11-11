@@ -10,16 +10,16 @@ Welcome to my digital playground! I'm a **DevOps Engineer** with a passion for a
 - 💬 Feel free to quiz me about DevOps, cloud tech, or anything tech-related—I'm all ears!
 - 📫 **Reach me**: [vdxp@yahoo.com](mailto:vdxp@yahoo.com)
 - 😄 **Pronouns**: Zo Hair
-- ⚡ **Fun Fact**: I once automated my coffee machine to brew at 7 AM using a Raspberry Pi! ☕️✨
+- ⚡ **Fun Fact**: I love fishing and can catch a fish with my barehand! 
 
 ## 🛠️ Tech Stack & Tools
 
 ```plaintext
   🐍 Languages:
-    - Python
-    - YAML/JSON
-    - Groovy
-    - Shell Scripting
+    - Python - Basic
+    - YAML/JSON - Intermediate
+    - Groovy - Intermediate
+    - Shell Scripting - Basic
 
   🚀 DevOps Tools:
     - Docker 🐳
