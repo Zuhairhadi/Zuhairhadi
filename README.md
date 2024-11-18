@@ -10,7 +10,7 @@ Welcome to my digital playground! I'm a **DevOps Engineer** with a passion for a
 - 💬 Feel free to quiz me about DevOps, cloud tech, or anything tech-related—I'm all ears!
 - 📫 **Reach me**: [vdxp@yahoo.com](mailto:vdxp@yahoo.com)
 - 😄 **Pronouns**: Zo Hair
-- ⚡ **Fun Fact**: I love fishing and can catch a fish with my barehand! 
+- ⚡ **Fun Fact about me**: I love fishing and Garderning and connecting with the nature! 
 
 ## 🛠️ Tech Stack & Tools
 
