@@ -31,8 +31,7 @@ Welcome to my digital playground! I'm a **DevOps Engineer** with a passion for a
   ☁️ Cloud Providers:
     - AWS ☁️
     - Azure 🌩️
-    - Google Cloud 🌍
-
+   
   🗄️ Databases:
     - MySQL 🐬
     - PostgreSQL 🐘
