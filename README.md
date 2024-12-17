@@ -16,10 +16,10 @@ Welcome to my digital playground! I'm a **DevOps Engineer** with a passion for a
 
 ```plaintext
   🐍 Languages:
-    - Python - Basic
-    - YAML/JSON - Intermediate
+    - Python - scripting not coding :)
+    - YAML/JSON - Expert
     - Groovy - Intermediate
-    - Shell Scripting - Basic
+    - Shell Scripting - scripting
 
   🚀 DevOps Tools:
     - Docker 🐳
