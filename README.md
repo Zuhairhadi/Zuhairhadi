@@ -132,6 +132,17 @@ contact:      zuhairhadi2021@gmail.com
 
 ---
 
+ 
+## `> ./ai-digest.sh`
+ 
+<!-- AI-DIGEST:START -->
+`$ ./ai-digest.sh --since 7d`
+> Automating infrastructure and shipping reliable systems.
+ 
+_last updated: pending first run_
+<!-- AI-DIGEST:END -->
+ 
+---
 ## `> ./contact.sh`
 
 <div align="center">

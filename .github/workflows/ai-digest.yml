@@ -1,0 +1,97 @@
+name: AI Digest
+ 
+on:
+  schedule:
+    - cron: '0 13 * * 1'   # every Monday 13:00 UTC
+  workflow_dispatch:
+ 
+permissions:
+  contents: write
+ 
+jobs:
+  update-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 20
+ 
+      - name: Get recent commit messages
+        id: commits
+        run: |
+          COMMITS=$(git log --since="7 days ago" --pretty=format:"- %s" | head -n 15)
+          if [ -z "$COMMITS" ]; then
+            COMMITS="- No new commits this week"
+          fi
+          {
+            echo "commits<<EOF"
+            echo "$COMMITS"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+ 
+      - name: Generate AI digest
+        id: digest
+        env:
+          GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
+          COMMITS: ${{ steps.commits.outputs.commits }}
+        run: |
+          PROMPT=$(cat <<EOF
+          You are writing a single terse status line for a DevOps engineer's GitHub profile README, styled like terminal output. Based on these recent commits, write ONE sentence (max 20 words), present tense, no quotes, no markdown, describing what they have been building or working on. If there are no commits, write a generic sentence about maintaining production systems.
+ 
+          Commits:
+          $COMMITS
+          EOF
+          )
+ 
+          RESPONSE=$(curl -s https://models.github.ai/inference/chat/completions \
+            -H "Authorization: Bearer $GH_MODELS_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "$(jq -n --arg prompt "$PROMPT" '{
+              model: "openai/gpt-4o-mini",
+              messages: [{role: "user", content: $prompt}],
+              temperature: 0.7,
+              max_tokens: 60
+            }')")
+ 
+          DIGEST=$(echo "$RESPONSE" | jq -r '.choices[0].message.content // "Automating infrastructure and shipping reliable systems."')
+          DIGEST=$(echo "$DIGEST" | tr -d '\n' | sed 's/^"//;s/"$//')
+ 
+          echo "digest=$DIGEST" >> "$GITHUB_OUTPUT"
+ 
+      - name: Update README
+        env:
+          DIGEST: ${{ steps.digest.outputs.digest }}
+        run: |
+          DATE=$(date -u +"%Y-%m-%d")
+          python3 - <<PYEOF
+          import re, os
+ 
+          digest = os.environ["DIGEST"]
+          date = "$DATE"
+ 
+          with open("README.md", "r") as f:
+              content = f.read()
+ 
+          new_block = (
+              "<!-- AI-DIGEST:START -->\n"
+              "\`\$ ./ai-digest.sh --since 7d\`\n"
+              f"> {digest}\n\n"
+              f"_last updated: {date}_\n"
+              "<!-- AI-DIGEST:END -->"
+          )
+ 
+          pattern = re.compile(r"<!-- AI-DIGEST:START -->.*?<!-- AI-DIGEST:END -->", re.DOTALL)
+          content = pattern.sub(new_block, content)
+ 
+          with open("README.md", "w") as f:
+              f.write(content)
+          PYEOF
+ 
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update AI digest [skip ci]"
+          git push
