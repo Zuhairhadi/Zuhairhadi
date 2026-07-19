@@ -10,7 +10,7 @@
 ```
 
 ### `$ whoami`
-**DevOps Engineer** · Cloud Infrastructure · Platform Automation · GitOps
+**Certified DevOps Engineer Professional** · Cloud Infrastructure · Platform Automation · GitOps
 
 *Building systems that scale, heal themselves, and never keep teams waiting.*
 
