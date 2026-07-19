@@ -41,7 +41,7 @@ contact:      zuhairhadi2021@gmail.com
 | Certification | Issuer | Status |
 |:---|:---|:---:|
 | ☸️ **Certified Kubernetes Administrator (CKA)** | CNCF | ✅ Active |
-| ☁️ **AWS Certified Solutions Architect** | Amazon Web Services | ✅ Active |
+| ☁️ **AWS Certified DevOps Engineer Professional** | Amazon Web Services | ✅ Active |
 | 🔐 **Certified Information Security Manager (CISM)** | ISACA | ✅ Active |
 
 </div>
