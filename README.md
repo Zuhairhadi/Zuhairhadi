@@ -137,7 +137,7 @@ contact:      zuhairhadi2021@gmail.com
  
 <!-- AI-DIGEST:START -->
 `$ ./ai-digest.sh --since 7d`
-> Building AI digest workflows and updating AWS certification to reflect DevOps Engineer status.
+> Building AI digest workflows and updating AWS certification to DevOps Engineer.
 
 _last updated: 2026-07-20_
 <!-- AI-DIGEST:END -->
