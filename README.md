@@ -28,19 +28,19 @@
 
 ---
 
-### `> cat infrastructure.json`
 
-```json
-{
-  "core_competencies": [
-    "Infrastructure as Code (IaC)",
-    "Continuous Integration / Continuous Deployment (CI/CD)",
-    "Container Orchestration & Microservices",
-    "Cloud Architecture & Security",
-    "Automated Monitoring & Observability"
-  ],
-  "philosophy": "Infrastructure should be invisible to developers and indestructible in production."
-}
+### `> systemctl status core-competencies`
+
+| Architecture Pillar | Core Engineering Capabilities |
+| :--- | :--- |
+| **🏗️ Provisioning & IaC** | Automated Infrastructure as Code · Multi-Region Failover · State Management |
+| **🔁 Continuous Delivery** | High-Velocity CI/CD Pipelines · Automated Testing Gates · Zero-Downtime Rollouts |
+| **🐳 Orchestration** | Scalable Containerized Microservices · Service Meshes · Cluster Self-Healing |
+| **🛡️ SecOps & Cloud** | Identity Access Management (IAM) · Network Hardening · Compliance Automation |
+| **📊 Observability** | Proactive Distributed Tracing · Real-Time Alerting · Metric Aggregation |
+
+> **Engineering Philosophy:** *Infrastructure should be invisible to developers and indestructible in production.*
+
 ```
 
 ---
