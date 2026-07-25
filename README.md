@@ -1,167 +1,73 @@
-<div align="center">
-
-```
-███████╗ ██████╗     ██╗  ██╗ █████╗ ██████╗ ██╗
-╚══███╔╝██╔═══██╗    ██║  ██║██╔══██╗██╔══██╗██║
-  ███╔╝ ██║   ██║    ███████║███████║██║  ██║██║
- ███╔╝  ██║   ██║    ██╔══██║██╔══██║██║  ██║██║
-███████╗╚██████╔╝    ██║  ██║██║  ██║██████╔╝██║
-╚══════╝ ╚═════╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝
-```
-
-### `$ whoami`
-**Certified DevOps Engineer Professional** · Cloud Infrastructure · Platform Automation · GitOps
-
-*Building systems that scale, heal themselves, and never keep teams waiting.*
-
----
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Infrastructure+as+Code+%7C+Terraform+%7C+Ansible;CI%2FCD+Pipelines+%7C+Jenkins+%7C+ArgoCD;Kubernetes+%7C+Docker+%7C+Helm;AWS+%7C+Azure+%7C+Cloud+Architecture;Monitoring+%7C+Prometheus+%7C+Grafana)](https://git.io/typing-svg)
-
-</div>
+<table align="center" width="100%">
+  <tr>
+    <td align="left" width="70%">
+      <h1>Zuhair Hadi</h1>
+      <p><strong>Senior DevOps & Platform Engineer</strong></p>
+      <p>Building resilient, self-healing cloud infrastructure and automated GitOps workflows that scale seamlessly.</p>
+      <p>
+        <a href="mailto:zuhairhadi2021@gmail.com"><img src="https://shields.io" alt="Email"/></a>
+        <a href="https://github.com/Zuhairhadi"><img src="https://shields.io" alt="GitHub"/></a>
+      </p>
+    </td>
+    <td align="right" width="30%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zuhairhadi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=ffffff" width="100%" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
 
 ---
 
-## `> cat about.txt`
+### `> git log --oneline --graph --all`
 
-```yaml
-role:         Senior DevOps Engineer
-focus:        Platform Engineering · Cloud Infrastructure · GitOps
-approach:     Automate everything. Monitor everything. Break nothing.
-availability: Open to remote opportunities
-contact:      zuhairhadi2021@gmail.com
+```text
+* f8b9c2d (HEAD -> main) feat: Implement GitOps sync with ArgoCD & Blue/Green canary rollouts
+* 4a7e3d1 feat: Design and deploy scalable multi-region AWS/Azure core infrastructure using Terraform
+* e2d1a5c refactor: Optimize Jenkins CI/CD pipeline stages, reducing build execution times by 40%
+* 9c8b7a1 fix: Architect Prometheus & Grafana alerting thresholds to achieve 99.99% service uptime
 ```
 
 ---
 
-## `> ls -la certifications/`
+### `> cat infrastructure.json`
 
-<div align="center">
-
-| Certification | Issuer | Status |
-|:---|:---|:---:|
-| ☸️ **Certified Kubernetes Administrator (CKA)** | CNCF | ✅ Active |
-| ☁️ **AWS Certified DevOps Engineer Professional** | Amazon Web Services | ✅ Active |
-| 🔐 **Certified Information Security Manager (CISM)** | ISACA | ✅ Active |
-
-</div>
-
----
-
-## `> cat stack.json`
-
-<div align="center">
-
-### ⚙️ Infrastructure & Automation
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-![Packer](https://img.shields.io/badge/Packer-02A8EF?style=for-the-badge&logo=packer&logoColor=white)
-
-### 🐳 Containers & Orchestration
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
-
-### 🔁 CI/CD & GitOps
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
-
-### ☁️ Cloud
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-
-### 📊 Observability
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-
-### 💻 Languages & Scripting
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)
-![Groovy](https://img.shields.io/badge/Groovy-4298B8?style=for-the-badge&logo=apachegroovy&logoColor=white)
-
-### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
-
-</div>
-
----
-
-## `> cat pipeline.yaml`
-
-```
-  GitHub Push
-      │
-      ▼
-  Jenkins CI ──► SonarQube (Code Quality Gate)
-      │
-      ▼
-  Docker Build ──► Amazon ECR (Image Registry)
-      │
-      ▼
-  ArgoCD (GitOps Sync)
-      │
-      ▼
-  Kubernetes Cluster
-  ├── Blue/Green Deployment
-  └── Canary Rollout
-      │
-      ▼
-  Prometheus + Grafana (Observability)
-```
-
-*Every line of this pipeline has been production-tested.*
-
----
-
-## `> cat philosophy.txt`
-
-```
-"Infrastructure should be invisible to developers
- and indestructible in production."
-
-  - Automate the toil
-  - Observe everything
-  - Deploy with confidence
-  - Sleep through on-call
+```json
+{
+  "core_competencies": [
+    "Infrastructure as Code (IaC)",
+    "Continuous Integration / Continuous Deployment (CI/CD)",
+    "Container Orchestration & Microservices",
+    "Cloud Architecture & Security",
+    "Automated Monitoring & Observability"
+  ],
+  "philosophy": "Infrastructure should be invisible to developers and indestructible in production."
+}
 ```
 
 ---
 
- 
-## `> ./ai-digest.sh`
- 
-<!-- AI-DIGEST:START -->
-`$ ./ai-digest.sh --since 7d`
-> Building AI digest workflows and updating AWS certification to DevOps Engineer.
+### `> kubectl get certifications`
 
-_last updated: 2026-07-20_
-<!-- AI-DIGEST:END -->
- 
----
-## `> ./contact.sh`
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-zuhairhadi2021%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zuhairhadi2021@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Zuhairhadi-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zuhairhadi)
-
-</div>
+| NAME | ISSUER | STATUS |
+| :--- | :--- | :--- |
+| `cert/certified-kubernetes-administrator` | Cloud Native Computing Foundation (CNCF) | <img src="https://shields.io" alt="Active"/> |
+| `cert/aws-devops-engineer-professional` | Amazon Web Services (AWS) | <img src="https://shields.io" alt="Active"/> |
+| `cert/certified-information-security-manager` | ISACA | <img src="https://shields.io" alt="Active"/> |
 
 ---
 
-<div align="center">
+### `> terraform output tech_stack`
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Zuhairhadi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&text_color=ffffff)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zuhairhadi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&text_color=ffffff)
+```hcl
+infrastructure_automation = ["Terraform", "Ansible", "Packer"]
+containers_orchestration  = ["Kubernetes", "Docker", "Helm"]
+cicd_gitops              = ["Jenkins", "ArgoCD", "GitHub Actions", "SonarQube"]
+cloud_providers           = ["AWS", "Azure"]
+observability_monitoring = ["Prometheus", "Grafana"]
+languages_scripting      = ["Python", "Shell", "YAML", "Groovy"]
+databases_storage        = ["MySQL", "PostgreSQL", "DynamoDB"]
+```
 
 ---
 
-*`$ uptime` — Engineering reliable systems, one deployment at a time.*
+### `> cat pipeline.puml`
 
-</div>
