@@ -29,7 +29,7 @@ Cloud infrastructure • CI/CD automation • Kubernetes • Infrastructure as C
 
 ## About Me
 
-I'm a Senior DevOps Engineer with 10+ years in IT and 8+ years focused on cloud infrastructure, CI/CD automation, and container orchestration across AWS and Azure. I design and secure highly available cloud environments, build reusable Infrastructure as Code, and lead delivery pipelines that get software into production reliably and fast.
+I'm a Senior DevOps Engineer with 15+ years in IT and 8+ years focused on cloud infrastructure, CI/CD automation, and container orchestration across AWS and Azure. I design and secure highly available cloud environments, build reusable Infrastructure as Code, and lead delivery pipelines that get software into production reliably and fast.
 
 I work closely with engineering and business stakeholders to translate requirements into scalable, production-ready systems — and I care as much about security and compliance (HIPAA, ISO 27001, NIST) as I do about uptime.
 
