@@ -1,12 +1,12 @@
 <div align="center">
 
 # Zuhair Hadi
-### Senior DevOps & Platform Engineer
+### IT Support Engineer | Endpoint & Access Management | Onboarding
 
-Cloud infrastructure • CI/CD automation • Kubernetes • Infrastructure as Code
+Enterprise IT Support • Identity & Access Management • Endpoint Administration • Automation
 
 <p>
-  <a href="mailto:zuhairhadi2222@gmail.com">
+  <a href="mailto:zuhairhadi2021@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-0A66C2?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://www.linkedin.com/in/zuhairhadi2021/">
@@ -18,9 +18,9 @@ Cloud infrastructure • CI/CD automation • Kubernetes • Infrastructure as C
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/AWS%20Certified-DevOps%20Professional-FF9900?style=flat-square&logo=amazonaws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Experience-10%2B%20Years-333333?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Location-Chicago%2C%20IL-333333?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Experience-12%2B%20Years-333333?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Location-Schaumburg%2C%20IL%20(Remote)-333333?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Work%20Authorization-US%20Citizen-2E7D32?style=flat-square"/>
 </p>
 
 </div>
@@ -29,92 +29,80 @@ Cloud infrastructure • CI/CD automation • Kubernetes • Infrastructure as C
 
 ## About Me
 
-I'm a Senior DevOps Engineer with 15+ years in IT and 8+ years focused on cloud infrastructure, CI/CD automation, and container orchestration across AWS and Azure. I design and secure highly available cloud environments, build reusable Infrastructure as Code, and lead delivery pipelines that get software into production reliably and fast.
+I'm an IT Support professional with 12+ years of experience supporting enterprise and distributed international teams, covering onboarding/offboarding, device provisioning, endpoint administration, and identity and access management across macOS, Windows, and Linux.
 
-I work closely with engineering and business stakeholders to translate requirements into scalable, production-ready systems — and I care as much about security and compliance (HIPAA, ISO 27001, NIST) as I do about uptime.
+I'm known for being a reliable, collaborative team player who takes ownership of problems end-to-end, communicates clearly across time zones, and stays calm under pressure. I care about getting people unblocked fast while keeping systems secure and compliant, and I'm a US citizen based in the Schaumburg, IL area, open to remote work.
+
+I'm also expanding into automation and agentic workflows (Python, Bash, PowerShell, Model Context Protocol) to cut down manual IT work.
 
 <br>
 
-## Technical Skills
+## Core Skills
 
-**Cloud Platforms**
-AWS, Azure
+**Onboarding & Provisioning**
+Employee Onboarding/Offboarding, Device Setup & Provisioning, Account Provisioning, Application Access
 
-**Infrastructure as Code**
-Terraform, Terragrunt, CloudFormation, AWS CDK
+**Endpoint & Device Management**
+Iru (MDM), Endpoint Security, Asset Tracking & Inventory, macOS, Windows, Linux (Red Hat, Ubuntu, CentOS)
 
-**Containers & Orchestration**
-Docker, Docker Swarm, Kubernetes, Amazon EKS, OpenShift, Helm, Kubernetes Ingress, Kubernetes LoadBalancer Services
+**Identity & Access Management**
+IAM, SSO, MFA, Access Control Policies, Access Reviews & Security Audits
 
-**Serverless & Compute**
-AWS Fargate, AWS Lambda
+**Compliance & Security**
+HIPAA, ISO 27001, SOC 2-aligned Access Reviews, Data Privacy, Incident Response Support
 
-**CI/CD**
-Jenkins, GitHub Actions, Azure DevOps
+**Service Desk & Support**
+End-User Support, Technical Troubleshooting, Incident Management, Escalation
 
-**Configuration Management**
-Ansible, Chef, Puppet
+**Automation & Scripting**
+Python, Bash, PowerShell, Workflow Automation, API Integration, JSON, YAML
 
-**Monitoring & Observability**
-Prometheus, Grafana, New Relic, Sumo Logic, CloudWatch
+**Networking**
+TCP/IP, DNS, DHCP, LAN, SSH, SMTP, FTP
 
-**Code Quality & Security**
-SonarQube, IAM, DevSecOps practices
-
-**Compliance & Standards**
-HIPAA, ISO 27001, NIST
-
-**Databases**
-MySQL, DynamoDB, MongoDB, Amazon RDS
-
-**Scripting & Languages**
-Python, Bash, PowerShell, YAML, JSON
+**Cloud & Emerging Tech**
+AWS, Google Cloud, Generative AI Tools, Agentic Workflows, Model Context Protocol (MCP)
 
 **Collaboration & Ticketing**
-Jira, Slack
-
-**Version Control**
-GitHub, Bitbucket
-
-**Operating Systems**
-Red Hat Linux, CentOS, Ubuntu, Windows, macOS
+Jira, ServiceNow, Slack, GitHub
 
 <br>
 
 ## Experience
 
-**Senior DevOps Engineer** — Go Animate, Chicago, IL
-*Apr 2024 – May 2026*
-Led cloud infrastructure delivery on AWS, deploying Kubernetes workloads on EKS with Fargate for serverless pods, integrating SonarQube into CI/CD pipelines, and coordinating cross-team delivery through Jira and Slack.
+**Lead IT Support and Onboarding Specialist** — Go Animate, Chicago, IL (Remote)
+*Apr 2024 – Present*
+Own onboarding/offboarding, endpoint and MDM administration, and IAM/SSO/MFA access reviews for a distributed international workforce; lead and mentor the IT support team.
 
-**Site Reliability Engineer** — MerchantE Solutions, Atlanta, GA
+**IT Support Engineer** — MerchantE Solutions, Atlanta, GA
 *Jan 2020 – Feb 2024*
-Maintained 99.9% uptime across 50+ servers, automated operational workflows with Bash and Python, and enforced access controls aligned with ISO 27001, HIPAA, and NIST requirements.
+Monitored and maintained uptime across 50+ servers, managed access controls under HIPAA/ISO 27001, and led incident investigation and root-cause analysis.
 
-**DevOps Engineer** — Cardinal Health, Chicago, IL
-*Jan 2018 – Dec 2019*
-Built and maintained CI/CD infrastructure (Jenkins, Terraform, Helm) and managed Kubernetes access control and networking through IAM roles, Ingress rules, and Load Balancer configurations.
+**Health Care IT Support Specialist** — Cardinal Health, Chicago, IL
+*Jan 2017 – Dec 2019*
+Supported healthcare IT and PACS/radiology systems, administered Linux/Windows servers, and maintained HIPAA-aligned access controls for PHI systems.
 
-**IT Network Administrator** — Global Tek, Chicago, IL
+**Senior IT Administrator / IT Administrator** — Global Tek, Chicago, IL
 *Feb 2010 – Jan 2017*
-Led infrastructure upgrades and migrations, and managed backup, disaster recovery, and end-user technical support.
+Led infrastructure upgrades and migrations, mentored junior staff, and delivered end-user technical support.
 
 <br>
 
 ## Certifications
 
-| Certification | Status |
-|---|---|
-| AWS Certified DevOps Engineer – Professional | Active |
-| Certified Kubernetes Administrator (CKA) | Expired |
-| CISM — Scrum / Agile Certification | Lifetime |
+| Certification | 
+|---|
+| AWS Cloud Associate |
+| MCITP Certified — Networking |
+| CSM ScrumMaster — Scrum / Agile |
+| CompTIA A+ |
+| Google IT Support Professional Certificate |
 
 <br>
 
 ## Education
 
-- Master of Science in Computer Science — University of Bridgeport, USA (2012)
-- Bachelor of Science in Computer Science — Osmania University, India (2009)
+Bachelor of Science in Computer Science — Osmania University, India
 
 <br>
 
@@ -129,6 +117,6 @@ Led infrastructure upgrades and migrations, and managed backup, disaster recover
 
 <div align="center">
 
-**Let's connect** — [Email](mailto:zuhairhadi2222@gmail.com) • [LinkedIn](https://www.linkedin.com/in/zuhairhadi2021/) • [GitHub](https://github.com/Zuhairhadi)
+**Let's connect** — [Email](mailto:zuhairhadi2021@gmail.com) • [LinkedIn](https://www.linkedin.com/in/zuhairhadi2021/) • [GitHub](https://github.com/Zuhairhadi)
 
 </div>
